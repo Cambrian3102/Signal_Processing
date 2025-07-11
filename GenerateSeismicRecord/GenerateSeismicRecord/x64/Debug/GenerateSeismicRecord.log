@@ -1,0 +1,26 @@
+﻿生成启动时间为 2024/7/6/周六 11:42:20。
+     1>项目“G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\GenerateSeismicRecord\GenerateSeismicRecord.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtMsBuildNotFound:
+         QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+       CustomBuild:
+         Moc'ing generate_seismic_record.h...
+         Uic'ing generate_seismic_record.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_generate_seismic_record.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_generate_seismic_record.cpp, GeneratedFiles\Release\moc_generate_seismic_record.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtANGLE /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt allocate.cpp GeneratedFiles\Debug\moc_generate_seismic_record.cpp generate_seismic_record.cpp main.cpp
+         allocate.cpp
+         moc_generate_seismic_record.cpp
+         generate_seismic_record.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\x64\Debug\\GenerateSeismicRecord.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\x64\Debug\GenerateSeismicRecord.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\x64\Debug\GenerateSeismicRecord.lib" /MACHINE:X64 x64\Debug\allocate.obj
+         x64\Debug\moc_generate_seismic_record.obj
+         x64\Debug\generate_seismic_record.obj
+         x64\Debug\main.obj
+         LINK : 没有找到 G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\x64\Debug\\GenerateSeismicRecord.exe 或上一个增量链接没有生成它；正在执行完全链接
+         GenerateSeismicRecord.vcxproj -> G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\x64\Debug\GenerateSeismicRecord.exe
+     1>已完成生成项目“G:\A01信号分析Uultimite\第四题生成地震资料\CODE\GenerateSeismicRecord\GenerateSeismicRecord\GenerateSeismicRecord.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:21.40
