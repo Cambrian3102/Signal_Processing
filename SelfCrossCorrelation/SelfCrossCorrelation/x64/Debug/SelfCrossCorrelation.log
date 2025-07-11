@@ -1,0 +1,12 @@
+﻿生成启动时间为 2024/7/6/周六 10:21:31。
+     1>项目“C:\Users\Administrator\Desktop\SelfCrossCorrelation\SelfCrossCorrelation\SelfCrossCorrelation.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtMsBuildNotFound:
+         QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_self_cross_correlation.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_self_cross_correlation.cpp, GeneratedFiles\Release\moc_self_cross_correlation.cpp.
+       Link:
+         SelfCrossCorrelation.vcxproj -> C:\Users\Administrator\Desktop\SelfCrossCorrelation\x64\Debug\SelfCrossCorrelation.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\SelfCrossCorrelation\SelfCrossCorrelation\SelfCrossCorrelation.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.07
