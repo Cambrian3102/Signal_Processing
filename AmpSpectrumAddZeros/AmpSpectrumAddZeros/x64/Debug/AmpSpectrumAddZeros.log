@@ -1,0 +1,27 @@
+﻿生成启动时间为 2024/7/6 15:49:04。
+     1>项目“E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\AmpSpectrumAddZeros\AmpSpectrumAddZeros.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtMsBuildNotFound:
+         QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+       CustomBuild:
+         Moc'ing amp_spectrum_add_zeros.h...
+         Uic'ing amp_spectrum_add_zeros.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_amp_spectrum_add_zeros.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_amp_spectrum_add_zeros.cpp, GeneratedFiles\Release\moc_amp_spectrum_add_zeros.cpp.
+       ClCompile:
+         D:\BaiduNetdiskDownload\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\appdata\Roaming\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /ID:\appdata\Roaming\5.5\msvc2013_64\include\QtCore /ID:\appdata\Roaming\5.5\msvc2013_64\include\QtGui /ID:\appdata\Roaming\5.5\msvc2013_64\include\QtANGLE /ID:\appdata\Roaming\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt allocate.cpp amp_spectrum_add_zeros.cpp GeneratedFiles\Debug\moc_amp_spectrum_add_zeros.cpp main.cpp
+         amp_spectrum_add_zeros.cpp
+         allocate.cpp
+         moc_amp_spectrum_add_zeros.cpp
+         main.cpp
+     1>amp_spectrum_add_zeros.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (amp_spectrum_add_zeros.cpp)
+       Link:
+         D:\BaiduNetdiskDownload\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\x64\Debug\\AmpSpectrumAddZeros.exe" /NOLOGO /LIBPATH:D:\appdata\Roaming\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\x64\Debug\AmpSpectrumAddZeros.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\x64\Debug\AmpSpectrumAddZeros.lib" /MACHINE:X64 x64\Debug\allocate.obj
+         x64\Debug\amp_spectrum_add_zeros.obj
+         x64\Debug\moc_amp_spectrum_add_zeros.obj
+         x64\Debug\main.obj
+         LINK : 没有找到 E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\x64\Debug\\AmpSpectrumAddZeros.exe 或上一个增量链接没有生成它；正在执行完全链接
+         AmpSpectrumAddZeros.vcxproj -> E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\x64\Debug\AmpSpectrumAddZeros.exe
+     1>已完成生成项目“E:\A01信号分析Uultimite\第二题振幅谱补零\code\AmpSpectrumAddZeros\AmpSpectrumAddZeros\AmpSpectrumAddZeros.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.06
